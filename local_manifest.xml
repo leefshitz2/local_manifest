@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <!-- Trees -->
+ <project path="device/samsung/i9152" name="42n4/android_device_samsung_i9152.git" remote="github" revision="cm-14.1" />
+ <project path="vendor/samsung" name="ghsr/proprietary_vendor_samsung_i9152.git" remote="github" revision="android-7.1" />
+ <project path="kernel/samsung/i9152" name="42n4/android_kernel_samsung_i9152.git" remote="github" revision="android-7.1" />
+ 
+</manifest>
