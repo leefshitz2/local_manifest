@@ -2,8 +2,9 @@
 <manifest>
 
  <!-- Trees -->
- <project path="device/samsung/i9152" name="42n4/android_device_samsung_i9152.git" remote="github" revision="cm-14.1" />
- <project path="vendor/samsung" name="ghsr/proprietary_vendor_samsung_i9152.git" remote="github" revision="android-7.1" />
- <project path="kernel/samsung/i9152" name="42n4/android_kernel_samsung_i9152.git" remote="github" revision="android-7.1" />
+ <project path="device/oneplus/billie2" name="LineageOS/android_device_oneplus_billie2.git" remote="github" revision="lineage-21" />
+ <project path="vendor/oneplus/billie2" name="TheMuppets/proprietary_vendor_oneplus_billie2.git" remote="github" revision="lineage-20" />
+ <project path="kernel/oneplus/sm4250" name="LineageOS/android_kernel_oneplus_sm4250.git" remote="github" revision="lineage-20" />
+ <project path="hardware/oneplus" name="LineageOS/android_hardware_oneplus.git" remote="github" revision="lineage-21" />
  
 </manifest>
