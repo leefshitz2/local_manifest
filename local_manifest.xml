@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <!--Remotes-->
+    <remote name="los"            fetch="https://github.com/LineageOS"           revision="lineage-22.2" />
+    <remote name="muppets"        fetch="https://github.com/TheMuppets"          revision="lineage-22.2" />
+    <remote name="user"        fetch="https://github.com/leefshitz2"          revision="lineage-22.2" />
 
- <!-- Trees -->
- <project path="device/oneplus/billie2" name="LineageOS/android_device_oneplus_billie2.git" remote="github" revision="lineage-21" />
- <project path="vendor/oneplus/billie2" name="TheMuppets/proprietary_vendor_oneplus_billie2.git" remote="github" revision="lineage-21" />
- <project path="kernel/oneplus/sm4250" name="LineageOS/android_kernel_oneplus_sm4250.git" remote="github" revision="lineage-20" />
- <project path="hardware/oneplus" name="LineageOS/android_hardware_oneplus.git" remote="github" revision="lineage-21" />
+    <!--Devices Trees-->
+    <project name="android_device_xiaomi_dipper"           path="device/xiaomi/dipper"       remote="los" />
+    <project name="android_device_xiaomi_sdm845-common"     path="device/xiaomi/sdm845-common" remote="los" />
 
+    <!--Vendors Tree-->
+    <project name="proprietary_vendor_xiaomi_dipper"       path="vendor/xiaomi/dipper"       remote="muppets" />
+    <project name="proprietary_vendor_xiaomi_sdm845-common" path="vendor/xiaomi/sdm845-common" remote="muppets" />
+
+    <!--Kernel Tree-->
+    <project name="android_kernel_xiaomi_sdm845"            path="kernel/xiaomi/sdm845"        remote="los" />
+
+    <!--Hardware dependencies-->
+    <project name="android_hardware_xiaomi"                 path="hardware/xiaomi"             remote="user" />
 </manifest>
